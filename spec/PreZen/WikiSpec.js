@@ -23,5 +23,9 @@ describe('Wiki', function () {
     it('should convert from "foo\n\nbar" to "<p>foo</p><p>bar</p>".', function () {
       expect(convert('foo\n\nbar')).toEqual('<p>foo</p><p>bar</p>');
     });
+
+    it('should convert from "+ foo" to "<ul><li>foo</li></ul>".', function () {
+      expect(convert('+ foo')).toEqual('<ul><li>foo</li></ul>');
+    });
   });
 });
