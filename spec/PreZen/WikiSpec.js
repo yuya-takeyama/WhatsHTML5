@@ -8,6 +8,14 @@ describe('Wiki', function () {
       expect(convert('foo')).toEqual('<p>foo</p>');
     });
 
+    it('should convert from "* foo" to "<h1>foo</h1>".', function () {
+      expect(convert('* foo')).toEqual('<h1>foo</h1>');
+    });
+
+    it('should convert from "****** foo" to "<h6>foo</h6>".', function () {
+      expect(convert('****** foo')).toEqual('<h6>foo</h6>');
+    });
+
     it('should convert from "foo\nbar" to "<p>foo<br />bar</p>"', function () {
       expect(convert('foo\nbar')).toEqual('<p>foo<br />bar</p>');
     });
