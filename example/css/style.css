@@ -1,0 +1,38 @@
+body {
+  background: #EEE;
+  color: #333;
+}
+
+div.wiki {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+div.wiki h1 {
+  color: #C23;
+  font-family: "Times New Roman";
+  font-size: 65px;
+  margin: 0 1em;
+  padding: 0.2em;
+  text-align: center;
+  border-radius: 0.2em;
+  text-shadow: 5px 3px 3px #666;
+  box-shadow: 10px 10px 10px #333;
+  -webkit-text-stroke: 1px #222;
+  background: -webkit-gradient(linear, left top, left bottom, from(#DDD), to(#999));
+  font-weight: 800;
+}
+
+div.wiki h2 {
+  color: #24B;
+  margin: 0.8em 1.6em;
+  font-size: 45px;
+  -webkit-text-stroke: 1px #222;
+  text-shadow: 5px 3px 3px #999;
+  font-weight: 800;
+}
+
+div.wiki p {
+  margin: 0.8em 0em 0.8em 2.2em;
+  font-size: 45px;
+}
