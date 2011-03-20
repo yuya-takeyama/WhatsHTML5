@@ -11,17 +11,19 @@ div.wiki {
 }
 
 div.wiki h1 {
-  color: #C23;
+  color: #B33;
   font-family: "Times New Roman";
-  font-size: 65px;
+  font-size: 90px;
   margin: 0.2em 1em;
   padding: 0.2em;
   text-align: center;
   border-radius: 0.2em;
-  text-shadow: 5px 3px 3px #666;
+  -moz-border-radius: 0.2em;
+  text-shadow: 3px 3px 10px #000;
   box-shadow: 10px 10px 10px #333;
-  -webkit-text-stroke: 1px #222;
-  background: -webkit-gradient(linear, left top, left bottom, from(#DDD), to(#999));
+  -moz-box-shadow: 10px 10px 10px #333;
+  background: -webkit-gradient(linear, center bottom, center top, from(#999), to(#FFF));
+  background: -moz-linear-gradient(90deg, #999, #FFF);
   font-weight: 800;
 }
 
@@ -71,8 +73,10 @@ div.wiki ul {
   border: #111 solid;
   border-width: 1px 0;
   background: -webkit-gradient(linear, left top, left bottom, from(#AAA), to(#666));
-  box-shadow: 10px 10px 10px #333;
-  margin: 0;
+  background: -moz-linear-gradient(-90deg, #AAA, #666);
+  box-shadow: 0 10px 10px #333;
+  -moz-box-shadow: 0 10px 10px #333;
+  margin: 0 10px;
   padding: 0.5em;
   text-align: center;
 }
