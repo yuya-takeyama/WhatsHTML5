@@ -42,6 +42,11 @@ div.wiki p, div.markdown p {
 
 div.wiki ul, div.markdown ul {
   margin: 0.8em 0em 0.8em 2.2em;
+  list-style-type: square;
+}
+
+div.wiki ul li, div.markdown ul li {
+  margin: 0.3em 0;
 }
 
 #title-slide h1 {
