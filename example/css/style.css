@@ -76,6 +76,38 @@ div.takahashi strong {
   text-shadow: 10px 10px 15px #000;
 }
 
+div.impression {
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  overflow: hidden;
+}
+
+div.impression-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+div.impression-background img {
+  width: 100%;
+}
+
+div.impression-label {
+  font-weight: 900;
+  font-size: 250%;
+  padding: 0.4em 0;
+  color: rgba(40, 40, 160, 0.7);
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  display: block;
+  width: 100%;
+}
+
 #title-slide h1 {
   margin: 0;
   text-align: center;
