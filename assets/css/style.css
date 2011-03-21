@@ -12,6 +12,7 @@ div.slide {
   min-height: 100%;
   padding: 0;
   margin: 0;
+  overflow: hidden;
 }
 
 div.wiki h1, div.markdown h1 {
@@ -140,7 +141,7 @@ div.impression-label {
   background: -moz-linear-gradient(-90deg, #AAA, #666);
   box-shadow: 0 10px 10px #333;
   -moz-box-shadow: 0 10px 10px #333;
-  margin: 0 10px;
+  margin: 0;
   padding: 0.5em;
   text-align: center;
 }
