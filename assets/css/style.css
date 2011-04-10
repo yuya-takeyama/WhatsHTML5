@@ -50,8 +50,14 @@ div.wiki ul, div.markdown ul {
   list-style-type: square;
 }
 
-div.wiki ul li, div.markdown ul li {
+div.wiki > ul > li, div.markdown > ul > li {
   margin: 0.3em 0;
+}
+
+div.markdown > ul > li:hover {
+  -webkit-transition: 0.7s ease-in-out;
+  color: #F53;
+  text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
 }
 
 div.takahashi p {
