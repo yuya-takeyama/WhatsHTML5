@@ -59,6 +59,7 @@ div.markdown > ul > li:hover {
   -webkit-transition: 0.7s ease-in-out;
   color: #F53;
   text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.3);
+  text-indent: 0.2em;
 }
 
 div.takahashi p {
